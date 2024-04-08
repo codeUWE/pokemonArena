@@ -8,6 +8,7 @@ import AllPokemon from './components/AllPokemon';
 import Footer from './components/Footer';
 import PokemonArena from './components/PokemonArena';
 import SinglePokemon from './components/SinglePokemon';
+import Cards from './components/Cards';
 
 function App() {
 	return (
@@ -19,6 +20,7 @@ function App() {
 					<Route path="/pokemon" element={<AllPokemon />} />
 					<Route path="/pokemon/:id" element={<SinglePokemon />} />
 					<Route path="/arena" element={<PokemonArena />} />
+					<Route path="/cards" element={<Cards />} />
 				</Routes>
 			</main>
 			<Footer />
