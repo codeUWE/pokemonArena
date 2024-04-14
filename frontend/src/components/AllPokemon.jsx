@@ -1,13 +1,10 @@
 import { useState, useEffect } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { getAllPokemon } from '../services/backendRequests';
 import { pokemonTypes } from '../services/pokemonCardsService';
 
 //flowbite assets
 import { Tabs, Button } from 'flowbite-react';
-
-//icons
-import Mew from '../assets/iconMew.png';
 
 function AllPokemon() {
 	const navigate = useNavigate();
@@ -22,9 +19,13 @@ function AllPokemon() {
 	return (
 		<>
 			<div>
-				<Tabs aria-label="Tabs with underline" style="underline">
+				<Tabs
+					aria-label="Tabs with underline"
+					style="underline"
+					className="mx-auto"
+				>
 					<Tabs.Item active title="Kanto-Dex">
-						<div className="w-full mt-10 ">
+						<div className="w-full mt-2 ">
 							<div className="w-[90%] mx-auto flex flex-auto gap-6 flex-wrap justify-evenly">
 								{allPokemon.slice(0, 151).map((pokemon, index) => {
 									const getCardBackground = () => {
@@ -70,7 +71,7 @@ function AllPokemon() {
 						</div>
 					</Tabs.Item>
 					<Tabs.Item title="Johto-Dex">
-						<div className="w-full mt-10 ">
+						<div className="w-full mt-2 ">
 							<div className="w-[90%] mx-auto flex flex-auto gap-6 flex-wrap justify-evenly">
 								{allPokemon.slice(151, 251).map((pokemon, index) => {
 									const getCardBackground = () => {
@@ -116,7 +117,7 @@ function AllPokemon() {
 						</div>
 					</Tabs.Item>
 					<Tabs.Item title="Hoenn-Dex">
-						<div className="w-full mt-10 ">
+						<div className="w-full mt-2 ">
 							<div className="w-[90%] mx-auto flex flex-auto gap-6 flex-wrap justify-evenly">
 								{allPokemon.slice(251, 386).map((pokemon, index) => {
 									const getCardBackground = () => {
@@ -162,7 +163,7 @@ function AllPokemon() {
 						</div>
 					</Tabs.Item>
 					<Tabs.Item title="Sinnoh-Dex">
-						<div className="w-full mt-10 ">
+						<div className="w-full mt-2 ">
 							<div className="w-[90%] mx-auto flex flex-auto gap-6 flex-wrap justify-evenly">
 								{allPokemon.slice(386, 493).map((pokemon, index) => {
 									const getCardBackground = () => {
@@ -208,7 +209,7 @@ function AllPokemon() {
 						</div>
 					</Tabs.Item>
 					<Tabs.Item title="Einall-Dex">
-						<div className="w-full mt-10 ">
+						<div className="w-full mt-2 ">
 							<div className="w-[90%] mx-auto flex flex-auto gap-6 flex-wrap justify-evenly">
 								{allPokemon.slice(493, 649).map((pokemon, index) => {
 									const getCardBackground = () => {
@@ -254,7 +255,7 @@ function AllPokemon() {
 						</div>
 					</Tabs.Item>
 					<Tabs.Item title="Kalos-Dex">
-						<div className="w-full mt-10 ">
+						<div className="w-full mt-2 ">
 							<div className="w-[90%] mx-auto flex flex-auto gap-6 flex-wrap justify-evenly">
 								{allPokemon.slice(649, 721).map((pokemon, index) => {
 									const getCardBackground = () => {
@@ -300,7 +301,7 @@ function AllPokemon() {
 						</div>
 					</Tabs.Item>
 					<Tabs.Item title="Alola-Dex">
-						<div className="w-full mt-10 ">
+						<div className="w-full mt-2 ">
 							<div className="w-[90%] mx-auto flex flex-auto gap-6 flex-wrap justify-evenly">
 								{allPokemon.slice(721, 809).map((pokemon, index) => {
 									const getCardBackground = () => {

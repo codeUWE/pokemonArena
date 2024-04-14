@@ -18,6 +18,7 @@ function App() {
 					<Route path="/" element={<Homepage />} />
 					<Route path="/pokemon" element={<AllPokemon />} />
 					<Route path="/pokemon/:id" element={<SinglePokemon />} />
+					<Route path="/pokemon/:id/:info" element={<SinglePokemon />} />
 					<Route path="/arena" element={<PokemonArena />} />
 				</Routes>
 			</main>
