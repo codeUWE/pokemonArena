@@ -5,7 +5,7 @@ export const pokemonTypes = {
 	Bug: 'bg-gradient-to-b from-lime-300 via-lime-100 to-lime-300',
 	Normal: 'bg-gradient-to-b from-gray-300 via-slate-100 to-gray-300',
 	Poison: 'bg-gradient-to-b from-purple-600 via-purple-200 to-purple-600',
-	Electric: 'bg-gradient-to-b from-yellow-400 via-amber-100 to-yellow-400',
+	Electric: 'bg-gradient-to-b from-yellow-500 via-yellow-300 to-yellow-500',
 	Ground: 'bg-gradient-to-b from-amber-800 via-amber-200 to-amber-800',
 	Fairy: 'bg-gradient-to-b from-pink-500 via-fuchsia-200 to-pink-500',
 	Fighting: 'bg-gradient-to-b from-orange-500 via-orange-200 to-orange-500',

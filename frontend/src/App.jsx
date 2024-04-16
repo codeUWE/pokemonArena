@@ -5,7 +5,7 @@ import { Routes, Route } from 'react-router-dom';
 import Nav from './components/Nav';
 import Homepage from './components/Homepage';
 import AllPokemon from './components/AllPokemon';
-import Footer from './components/Footer';
+import FooterPokemon from './components/Footer';
 import PokemonArena from './components/PokemonArena';
 import SinglePokemon from './components/SinglePokemon';
 
@@ -22,7 +22,7 @@ function App() {
 					<Route path="/arena" element={<PokemonArena />} />
 				</Routes>
 			</main>
-			<Footer />
+			<FooterPokemon />
 		</>
 	);
 }

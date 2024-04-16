@@ -22,7 +22,7 @@ function AllPokemon() {
 				<Tabs
 					aria-label="Tabs with underline"
 					style="underline"
-					className="mx-auto"
+					className="mx-auto dark:bg-sky-950"
 				>
 					<Tabs.Item active title="Kanto-Dex">
 						<div className="w-full mt-2 ">
@@ -34,7 +34,7 @@ function AllPokemon() {
 									return (
 										<>
 											<div
-												className="w-[200px] h-[300px] bg-gradient-to-b from-gray-500 via-gray-300 to-gray-500 rounded-md flex items-center justify-center shadow-zinc-700 shadow-xl hover:animate-pulse "
+												className="w-[200px] h-[300px] bg-gradient-to-b from-yellow-400 via-yellow-200 to-yellow-400  rounded-md flex items-center justify-center shadow-zinc-700 shadow-xl hover:animate-pulse "
 												key={index}
 											>
 												<div
@@ -42,7 +42,7 @@ function AllPokemon() {
 													style={{
 														width: '180px',
 														height: '280px',
-														borderRadius: '0.375rem',
+														borderRadius: '0.1rem',
 													}}
 												>
 													<div
@@ -57,10 +57,10 @@ function AllPokemon() {
 													</div>
 													<Button
 														size="xs"
-														className="mx-auto mt-2 rounded-md text-zinc-900 border-zinc-900 border-2"
+														className="mx-auto mt-[7px] bg-zinc-700 text-gray-200 rounded-2xl border-none"
 														onClick={() => navigate(`/pokemon/${pokemon.id}`)}
 													>
-														View Details
+														Details
 													</Button>
 												</div>
 											</div>
@@ -80,7 +80,7 @@ function AllPokemon() {
 									return (
 										<>
 											<div
-												className="w-[200px] h-[300px] bg-gradient-to-b from-gray-500 via-gray-300 to-gray-500 rounded-md flex items-center justify-center shadow-zinc-700 shadow-xl hover:animate-pulse"
+												className="w-[200px] h-[300px] bg-gradient-to-b from-yellow-400 via-yellow-200 to-yellow-400 rounded-md flex items-center justify-center shadow-zinc-700 shadow-xl hover:animate-pulse"
 												key={index}
 											>
 												<div
@@ -103,10 +103,10 @@ function AllPokemon() {
 													</div>
 													<Button
 														size="xs"
-														className="mx-auto mt-2 rounded-md text-zinc-900 border-zinc-900 border-2"
+														className="mx-auto mt-[7px] bg-zinc-700 text-gray-200 rounded-2xl border-none"
 														onClick={() => navigate(`/pokemon/${pokemon.id}`)}
 													>
-														View Details
+														Details
 													</Button>
 												</div>
 											</div>
@@ -126,7 +126,7 @@ function AllPokemon() {
 									return (
 										<>
 											<div
-												className="w-[200px] h-[300px] bg-gradient-to-b from-gray-500 via-gray-300 to-gray-500 rounded-md flex items-center justify-center shadow-zinc-700 shadow-xl hover:animate-pulse"
+												className="w-[200px] h-[300px] bg-gradient-to-b from-yellow-400 via-yellow-200 to-yellow-400 rounded-md flex items-center justify-center shadow-zinc-700 shadow-xl hover:animate-pulse"
 												key={index}
 											>
 												<div
@@ -149,10 +149,10 @@ function AllPokemon() {
 													</div>
 													<Button
 														size="xs"
-														className="mx-auto mt-2 rounded-md text-zinc-900 border-zinc-900 border-2"
+														className="mx-auto mt-[7px] bg-zinc-700 text-gray-200 rounded-2xl border-none"
 														onClick={() => navigate(`/pokemon/${pokemon.id}`)}
 													>
-														View Details
+														Details
 													</Button>
 												</div>
 											</div>
@@ -172,7 +172,7 @@ function AllPokemon() {
 									return (
 										<>
 											<div
-												className="w-[200px] h-[300px] bg-gradient-to-b from-gray-500 via-gray-300 to-gray-500 rounded-md flex items-center justify-center shadow-zinc-700 shadow-xl hover:animate-pulse"
+												className="w-[200px] h-[300px] bg-gradient-to-b from-yellow-400 via-yellow-200 to-yellow-400 rounded-md flex items-center justify-center shadow-zinc-700 shadow-xl hover:animate-pulse"
 												key={index}
 											>
 												<div
@@ -195,10 +195,10 @@ function AllPokemon() {
 													</div>
 													<Button
 														size="xs"
-														className="mx-auto mt-2 rounded-md text-zinc-900 border-zinc-900 border-2"
+														className="mx-auto mt-[7px] bg-zinc-700 text-gray-200 rounded-2xl border-none"
 														onClick={() => navigate(`/pokemon/${pokemon.id}`)}
 													>
-														View Details
+														Details
 													</Button>
 												</div>
 											</div>
@@ -218,7 +218,7 @@ function AllPokemon() {
 									return (
 										<>
 											<div
-												className="w-[200px] h-[300px] bg-gradient-to-b from-gray-500 via-gray-300 to-gray-500 rounded-md flex items-center justify-center shadow-zinc-700 shadow-xl hover:animate-pulse"
+												className="w-[200px] h-[300px] bg-gradient-to-b from-yellow-400 via-yellow-200 to-yellow-400 rounded-md flex items-center justify-center shadow-zinc-700 shadow-xl hover:animate-pulse"
 												key={index}
 											>
 												<div
@@ -241,10 +241,10 @@ function AllPokemon() {
 													</div>
 													<Button
 														size="xs"
-														className="mx-auto mt-2 rounded-md text-zinc-900 border-zinc-900 border-2"
+														className="mx-auto mt-[7px] bg-zinc-700 text-gray-200 rounded-2xl border-none"
 														onClick={() => navigate(`/pokemon/${pokemon.id}`)}
 													>
-														View Details
+														Details
 													</Button>
 												</div>
 											</div>
@@ -264,7 +264,7 @@ function AllPokemon() {
 									return (
 										<>
 											<div
-												className="w-[200px] h-[300px] bg-gradient-to-b from-gray-500 via-gray-300 to-gray-500 rounded-md flex items-center justify-center shadow-zinc-700 shadow-xl hover:animate-pulse"
+												className="w-[200px] h-[300px] bg-gradient-to-b from-yellow-400 via-yellow-200 to-yellow-400 rounded-md flex items-center justify-center shadow-zinc-700 shadow-xl hover:animate-pulse"
 												key={index}
 											>
 												<div
@@ -287,10 +287,10 @@ function AllPokemon() {
 													</div>
 													<Button
 														size="xs"
-														className="mx-auto mt-2 rounded-md text-zinc-900 border-zinc-900 border-2"
+														className="mx-auto mt-[7px] bg-zinc-700 text-gray-200 rounded-2xl border-none"
 														onClick={() => navigate(`/pokemon/${pokemon.id}`)}
 													>
-														View Details
+														Details
 													</Button>
 												</div>
 											</div>
@@ -310,7 +310,7 @@ function AllPokemon() {
 									return (
 										<>
 											<div
-												className="w-[200px] h-[300px] bg-gradient-to-b from-gray-500 via-gray-300 to-gray-500 rounded-md flex items-center justify-center shadow-zinc-700 shadow-xl hover:animate-pulse"
+												className="w-[200px] h-[300px] bg-gradient-to-b from-yellow-400 via-yellow-200 to-yellow-400 rounded-md flex items-center justify-center shadow-zinc-700 shadow-xl hover:animate-pulse"
 												key={index}
 											>
 												<div
@@ -333,10 +333,10 @@ function AllPokemon() {
 													</div>
 													<Button
 														size="xs"
-														className="mx-auto mt-2 rounded-md text-zinc-900 border-zinc-900 border-2"
+														className="mx-auto mt-[7px] bg-zinc-700 text-gray-200 rounded-2xl border-none"
 														onClick={() => navigate(`/pokemon/${pokemon.id}`)}
 													>
-														View Details
+														Details
 													</Button>
 												</div>
 											</div>
