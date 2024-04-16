@@ -22,7 +22,7 @@ function Homepage() {
 				<img
 					src={glurak}
 					alt=""
-					className="absolute top-0 right-0 z-10"
+					className="absolute top-[10px] right-0 z-10"
 					width={500}
 				/>
 				<img
@@ -157,7 +157,7 @@ function Homepage() {
 					<img
 						src={grassBackground}
 						alt=""
-						className="absolute top-40 left-0 z-0"
+						className="absolute top-24 left-0 z-0"
 					/>
 				</div>
 			</div>
