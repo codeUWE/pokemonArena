@@ -157,7 +157,7 @@ function Homepage() {
 					<img
 						src={grassBackground}
 						alt=""
-						className="absolute top-24 left-0 z-0"
+						className="absolute top-[150px] left-0 z-0"
 					/>
 				</div>
 			</div>

@@ -27,7 +27,7 @@ function AllPokemon() {
 					<Tabs.Item active title="Kanto-Dex">
 						<div className="w-full mt-2 ">
 							<div className="w-[90%] mx-auto flex flex-auto gap-6 flex-wrap justify-evenly">
-								{allPokemon.slice(0, 151).map((pokemon, index) => {
+								{allPokemon.slice(0, 151).map((pokemon) => {
 									const getCardBackground = () => {
 										return pokemonTypes[pokemon.type[0]];
 									};
@@ -35,7 +35,7 @@ function AllPokemon() {
 										<>
 											<div
 												className="w-[200px] h-[300px] bg-gradient-to-b from-yellow-400 via-yellow-200 to-yellow-400  rounded-md flex items-center justify-center shadow-zinc-700 shadow-xl hover:animate-pulse "
-												key={index}
+												key={pokemon.id}
 											>
 												<div
 													className={getCardBackground()}
